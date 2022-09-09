@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+
+#content {
+  height: 100%;
+  margin: 0; 
+  overflow: hidden;
+}
+
+#footer{  
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#pagination{
+  width: 100%;
+}
+
+#dateChooser{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.bx--tabs .bx--skeleton {
+  margin-bottom: 2vh;
+}
+
+.bx--tabs__nav .bx--tabs__nav--hidden {
+  height: 6vh !important;
+}
+
+.bx--tabs__nav-link {
+  width: 15vw !important;
+  height: 5vh !important;
+}
+
+.bx--skeleton.bx--data-table-container {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.bx--skeleton.bx--data-table-header {
+  padding: 1rem 0px 0.5rem 1rem;
+}
+
+.bx--skeleton.bx--btn.bx--btn--sm {
+  height: 20vh;
+}
+
+.bx--data-table-header__description {
+  display: none;
+}
